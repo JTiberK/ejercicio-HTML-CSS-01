@@ -1,0 +1,20 @@
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px auto;
+    gap: 2px;
+}
+
+.grid-contenedor > div {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    color: rgb(51, 216, 87);
+    background-color: gray;
+    /* opacity: 0.2; */
+    width: 600px;
+    border: 1px solid rgb(240, 10, 10);
+}
